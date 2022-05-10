@@ -23,19 +23,19 @@ timezone: America/Chicago
 
 title: Fear of the 'undefined'                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: My thoughts, experiments, and 'fun' issues I encounter on my journey as a developer.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   My thoughts, experiments, and 'fun' issues I encounter on my journey as a developer.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://paulmfischer.github.io'
 
 github:
   username: paulmfischer             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+# twitter:
+#   username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -73,7 +73,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/6816413?v=4
 
 # boolean type, the global switch for ToC in posts.
 toc: true
