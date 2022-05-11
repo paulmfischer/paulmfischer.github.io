@@ -9,6 +9,7 @@ Continuing on my Blazor exploration, today I am exploring building a generic com
 So lets first look at the non-generic autocomplete component (`Autocomplete.razor`):
 ```csharp
 @using MediaSet.Shared
+
 <div class="autocomplete" @onblur="@LostFocus">
     <label for="search">Search Publishers</label>
     <InputText id="Search" Class="form-control" @bind-Value="@SearchValue" @oninput="@FilterResults" @onfocus="@Focused" />
