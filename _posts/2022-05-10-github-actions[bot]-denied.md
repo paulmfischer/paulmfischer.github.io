@@ -4,7 +4,7 @@ date: 2022-05-10 15:15:00 -0500
 categories: [Toubleshooting, Github]
 tags: [github, github-actions]
 ---
-I have been working on setting up GitHub Pages for my user and trying out a few themes. Finally settled on the [chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy). Chirpy has a [starter project](https://github.com/cotes2020/chirpy-starter/generate) that you can generate your repository from. So off I went creating a new repo based on the starter project, pulled my new repository down, made a few changes, commited the changes and then pushed my changes.
+I have been working on setting up GitHub Pages for myself and trying out a few themes. Finally settled on the [chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy). Chirpy has a [starter project](https://github.com/cotes2020/chirpy-starter/generate) that you can generate your repository from. So off I went creating a new repo based on the starter project, pulled my new repository down, made a few changes, commited the changes and then pushed my changes.
 
 Pretty painless process surprisingly which is awesome.
 
