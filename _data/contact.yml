@@ -19,7 +19,7 @@
 -
   type: mastodon
   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-  url:  'https://mas.to/@fischerp'                  # Fill with your mastodon account page
+  url:  'https://social.linux.pizza/@fischerp'                  # Fill with your mastodon account page
   relme: true
 -
   type: linkedin
