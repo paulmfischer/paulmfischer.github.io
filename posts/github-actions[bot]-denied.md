@@ -1,5 +1,6 @@
 ---
 title: github-actions[bot] denied access to repo
+layout: layouts/posts.tsx
 date: 2022-05-10
 categories:
   - Toubleshooting
@@ -8,7 +9,6 @@ tags:
   - post
   - github
   - github-actions
-description: something something
 ---
 I have been working on setting up GitHub Pages for myself and trying out a few themes. Finally settled on the [chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy). Chirpy has a [starter project](https://github.com/cotes2020/chirpy-starter/generate) that you can generate your repository from. So off I went creating a new repo based on the starter project, pulled my new repository down, made a few changes, commited the changes and then pushed my changes.
 
