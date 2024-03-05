@@ -14,11 +14,11 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
             </div>
             <comp.sidebarFooter></comp.sidebarFooter>
           </div>
-          <div className="ml-64 dark:bg-zinc-900 grow h-screen">
+          <div className="ml-64 dark:bg-zinc-900 grow container">
             {/* <div id="header" className="dark:bg-zinc-700 p-2">
               <comp.Header></comp.Header>
             </div> */}
-            <div id="content" className="p-2 h-full grow">
+            <div id="content" className="p-2 min-h-screen">
               {children}
             </div>
           </div>
