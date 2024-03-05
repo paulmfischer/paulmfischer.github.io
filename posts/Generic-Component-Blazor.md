@@ -1,8 +1,12 @@
 ---
 # layout: post
-title:  "Generic Components in Blazor"
-date:   2019-06-21 05:30:00 -0500
-tags: [blazor, generics]
+title: "Generic Components in Blazor"
+date: 2019-06-21
+tags:
+  - post
+  - blazor
+  - generics
+description: Working on some blazor stuff.
 ---
 Continuing on my Blazor exploration, today I am exploring building a generic component.  I started out building an autocomplete component for a single entity.  It works great for the single entity `PublisherViewModel` but it does me no good if I want to have an autocomplete for another entity like `AuthorViewModel`.
 
