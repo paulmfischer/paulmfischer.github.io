@@ -2,6 +2,7 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "npm:@fortawesome/free-brands-svg-icons": "npm:@fortawesome/free-brands-svg-icons@6.5.1",
       "npm:@fortawesome/free-solid-svg-icons": "npm:@fortawesome/free-solid-svg-icons@6.5.1",
       "npm:@fortawesome/react-fontawesome": "npm:@fortawesome/react-fontawesome@0.2.0_@fortawesome+fontawesome-svg-core@6.5.1_react@18.2.0",
       "npm:@heroicons/react": "npm:@heroicons/react@2.1.1_react@18.2.0",
@@ -65,6 +66,12 @@
       },
       "@fortawesome/fontawesome-svg-core@6.5.1": {
         "integrity": "sha512-MfRCYlQPXoLlpem+egxjfkEuP9UQswTrlCOsknus/NcMoblTH2g0jPrapbcIb04KGA7E2GZxbAccGZfWoYgsrQ==",
+        "dependencies": {
+          "@fortawesome/fontawesome-common-types": "@fortawesome/fontawesome-common-types@6.5.1"
+        }
+      },
+      "@fortawesome/free-brands-svg-icons@6.5.1": {
+        "integrity": "sha512-093l7DAkx0aEtBq66Sf19MgoZewv1zeY9/4C7vSKPO4qMwEsW/2VYTUTpBtLwfb9T2R73tXaRDPmE4UqLCYHfg==",
         "dependencies": {
           "@fortawesome/fontawesome-common-types": "@fortawesome/fontawesome-common-types@6.5.1"
         }
