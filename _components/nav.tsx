@@ -16,7 +16,7 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => {
       <ul className="list-none pl-0">
         {data.navLinks.map((link: Navigation) => (
           <li key={link.text} className="my-5">
-            <a href={link.href} className="dark:text-slate-500 not-prose flex items-center">
+            <a href={link.href} className="dark:text-slate-500 flex items-center">
               <div className="w-5 h-5 mr-4">{getIcon(link.icon)}</div>
               <span className="text-lg">{link.text}</span>
             </a>
