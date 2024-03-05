@@ -4,7 +4,6 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
       <meta charSet="UTF-8"></meta>
       <title>{title}</title>
       <link rel="stylesheet" href="/styles.css"></link>
-      <link rel="stylesheet" href="/unocss.css"></link>
     </head>
     <body className="prose prose-slate prose-lg dark:text-slate-300 bg-white dark:bg-zinc-800">
       <div className="flex w-screen">

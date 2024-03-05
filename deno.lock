@@ -2,6 +2,8 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "npm:@fortawesome/free-solid-svg-icons": "npm:@fortawesome/free-solid-svg-icons@6.5.1",
+      "npm:@fortawesome/react-fontawesome": "npm:@fortawesome/react-fontawesome@0.2.0_@fortawesome+fontawesome-svg-core@6.5.1_react@18.2.0",
       "npm:@heroicons/react": "npm:@heroicons/react@2.1.1_react@18.2.0",
       "npm:@js-temporal/polyfill@0.4.4": "npm:@js-temporal/polyfill@0.4.4",
       "npm:@tailwindcss/typography": "npm:@tailwindcss/typography@0.5.10_tailwindcss@3.4.1__postcss@8.4.35",
@@ -55,6 +57,30 @@
         "integrity": "sha512-Txumi3td7J4A/xTTwlssKieHKTGl3j4A1tglBx72auZ49YK7ePY6XZricgIg9mnZT4xPfA+UPCUdnhRuEFDL+w==",
         "dependencies": {
           "tslib": "tslib@2.6.2"
+        }
+      },
+      "@fortawesome/fontawesome-common-types@6.5.1": {
+        "integrity": "sha512-GkWzv+L6d2bI5f/Vk6ikJ9xtl7dfXtoRu3YGE6nq0p/FFqA1ebMOAWg3XgRyb0I6LYyYkiAo+3/KrwuBp8xG7A==",
+        "dependencies": {}
+      },
+      "@fortawesome/fontawesome-svg-core@6.5.1": {
+        "integrity": "sha512-MfRCYlQPXoLlpem+egxjfkEuP9UQswTrlCOsknus/NcMoblTH2g0jPrapbcIb04KGA7E2GZxbAccGZfWoYgsrQ==",
+        "dependencies": {
+          "@fortawesome/fontawesome-common-types": "@fortawesome/fontawesome-common-types@6.5.1"
+        }
+      },
+      "@fortawesome/free-solid-svg-icons@6.5.1": {
+        "integrity": "sha512-S1PPfU3mIJa59biTtXJz1oI0+KAXW6bkAb31XKhxdxtuXDiUIFsih4JR1v5BbxY7hVHsD1RKq+jRkVRaf773NQ==",
+        "dependencies": {
+          "@fortawesome/fontawesome-common-types": "@fortawesome/fontawesome-common-types@6.5.1"
+        }
+      },
+      "@fortawesome/react-fontawesome@0.2.0_@fortawesome+fontawesome-svg-core@6.5.1_react@18.2.0": {
+        "integrity": "sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw==",
+        "dependencies": {
+          "@fortawesome/fontawesome-svg-core": "@fortawesome/fontawesome-svg-core@6.5.1",
+          "prop-types": "prop-types@15.8.1",
+          "react": "react@18.2.0"
         }
       },
       "@heroicons/react@2.1.1_react@18.2.0": {
@@ -1356,6 +1382,14 @@
           "source-map-js": "source-map-js@1.0.2"
         }
       },
+      "prop-types@15.8.1": {
+        "integrity": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",
+        "dependencies": {
+          "loose-envify": "loose-envify@1.4.0",
+          "object-assign": "object-assign@4.1.1",
+          "react-is": "react-is@16.13.1"
+        }
+      },
       "punycode.js@2.3.1": {
         "integrity": "sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==",
         "dependencies": {}
@@ -1371,6 +1405,10 @@
           "react": "react@18.2.0",
           "scheduler": "scheduler@0.23.0"
         }
+      },
+      "react-is@16.13.1": {
+        "integrity": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
+        "dependencies": {}
       },
       "react@18.2.0": {
         "integrity": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
