@@ -21,6 +21,7 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
             <div id="content" className="m-5 min-h-screen">
               {children}
             </div>
+            <comp.footer></comp.footer>
           </div>
       </div>
     </body>
