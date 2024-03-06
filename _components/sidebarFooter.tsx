@@ -6,17 +6,17 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => {
   const emailHref = 'mailto:' + data.email;
   return (
     <div className="mt-auto mx-auto mb-9 flex flex-wrap items-center gap-4">
-      <a href={data.github}>
-        <FontAwesomeIcon icon={faGithub} className="w-5 h-5 dark:text-slate-500" />
+      <a href={data.github} aria-label="github" target="_blank" rel="noopener">
+        <FontAwesomeIcon icon={faGithub} className="w-5 h-5 dark:text-slate-400" />
       </a>
-      <a href={emailHref}>
-        <FontAwesomeIcon icon={faEnvelope} className="w-5 h-5 dark:text-slate-500" />
+      <a href={emailHref} aria-label="github" target="_blank" rel="noopener">
+        <FontAwesomeIcon icon={faEnvelope} className="w-5 h-5 dark:text-slate-400" />
       </a>
-      <a href={data.mastodon}>
-        <FontAwesomeIcon icon={faMastodon} className="w-5 h-5 dark:text-slate-500" />
+      <a href={data.mastodon} aria-label="github" target="_blank" rel="noopener" rel="me">
+        <FontAwesomeIcon icon={faMastodon} className="w-5 h-5 dark:text-slate-400" />
       </a>
-      <a href={data.linkedin}>
-        <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5 dark:text-slate-500" />
+      <a href={data.linkedin} aria-label="github" target="_blank" rel="noopener">
+        <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5 dark:text-slate-400" />
       </a>
     </div>
   );
