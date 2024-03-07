@@ -8,6 +8,7 @@ import sitemap from "lume/plugins/sitemap.ts";
 import postcss from "lume/plugins/postcss.ts";
 import date from "lume/plugins/date.ts";
 import nav from "lume/plugins/nav.ts";
+import pagefind from "lume/plugins/pagefind.ts";
 
 import typography from "npm:@tailwindcss/typography";
 import lang_csharp from "npm:highlight.js/lib/languages/csharp";
@@ -39,6 +40,11 @@ site.use(tailwindcss({
   options: {
     plugins: [typography],
   },
+}));
+site.use(pagefind({
+  ui: {
+    resetStyles: true,
+  }
 }));
 site.use(sitemap());
 site.use(postcss());

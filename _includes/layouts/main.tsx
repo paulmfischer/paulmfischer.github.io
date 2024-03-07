@@ -15,9 +15,7 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
             <comp.sidebarFooter></comp.sidebarFooter>
           </div>
           <div className="ml-64 dark:bg-zinc-900 grow container">
-            {/* <div id="header" className="dark:bg-zinc-700 p-2">
-              <comp.Header></comp.Header>
-            </div> */}
+            <comp.Header></comp.Header>
             <div id="content" className="m-5 min-h-screen">
               {children}
             </div>

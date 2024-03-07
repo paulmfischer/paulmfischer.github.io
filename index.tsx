@@ -19,7 +19,6 @@ export default ({ search }: Lume.Data, helpers: Lume.Helpers) => {
     <ul className="pl-0">
       {search.pages('post').map((post) => (
         <li key={post.title} className="list-none pb-5 pl-3 border-b border-solid border-slate-700">
-          {/* <h4 className="mt-7 dark:text-slate-400">{post.title}</h4> */}
           <a className="mt-7 dark:text-slate-400 text-lg" href={post.url}>{post.title}</a>
           {post.description && <div className="text-sm">{post.description}</div>}
           <div className="flex italic text-sm mt-3">

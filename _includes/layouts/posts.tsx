@@ -12,7 +12,7 @@ export default ({ title, children, github, author, date }: Lume.Data, helpers: L
           Posted <span>{helpers.date(date, 'MM/dd/yyyy')}</span>
         </div>
       </div>
-      <div id="post-content" className="dark:bg-zinc-900 theme-an-old-hope">
+      <div id="post-content" data-pagefind-body className="dark:bg-zinc-900 theme-an-old-hope">
         {children}
       </div>
     </div>
