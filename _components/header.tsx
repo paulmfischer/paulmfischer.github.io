@@ -10,7 +10,7 @@ export default ({ comp, ...data }: Lume.Data, helpers: Lume.Helpers) => {
           ))}
         </ul> */}
       {/* </div> */}
-      <div id="search"></div>
+      <div id="search" className="mr-12"></div>
     </div>
   </>; 
 }

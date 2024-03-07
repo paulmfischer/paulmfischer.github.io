@@ -9,12 +9,20 @@
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
+#post-content pre {
+  margin-block: 1.5rem;
+}
+
+#post-content p {
+  margin-block: 1rem;
+}
+
 :root.dark {
   --pagefind-ui-scale: 0.75;
-  --pagefind-ui-primary: #cbd5e1;/* #034ad8;*/
+  --pagefind-ui-primary: #27272a;
   --pagefind-ui-text: #fff;
   --pagefind-ui-background: #27272a;
-  --pagefind-ui-border: #cbd5e1;
+  --pagefind-ui-border: #27272a;
   --pagefind-ui-tag: #cbd5e1;
   --pagefind-ui-border-width: 2px;
   --pagefind-ui-border-radius: 8px;

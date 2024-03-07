@@ -10,7 +10,6 @@ import date from "lume/plugins/date.ts";
 import nav from "lume/plugins/nav.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 
-import typography from "npm:@tailwindcss/typography";
 import lang_csharp from "npm:highlight.js/lib/languages/csharp";
 
 const site = lume();
@@ -37,9 +36,7 @@ site.use(code_highlight({
 site.use(feed());
 site.use(jsx());
 site.use(tailwindcss({
-  options: {
-    plugins: [typography],
-  },
+
 }));
 site.use(pagefind({
   ui: {

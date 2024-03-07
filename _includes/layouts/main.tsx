@@ -5,22 +5,26 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
       <title>{title}</title>
       <link rel="stylesheet" href="/styles.css"></link>
     </head>
-    <body className="prose prose-slate dark:prose-invert dark:text-slate-300 bg-white dark:bg-zinc-800">
-      <div className="flex w-screen">
-          <div id="sidebar" className="dark:bg-zinc-800 flex flex-col pr-2 fixed inset-0 h-full max-w-64"> 
+    <body className="dark:text-slate-300 bg-white dark:bg-zinc-800">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
+        <div className="min-h-screen flex">
+          <div id="sidebar" className="hidden lg:flex flex-col fixed inset-0 h-full max-w-64 dark:bg-zinc-800"> 
             <div className="ml-12">
               <comp.profile></comp.profile>
               <comp.nav></comp.nav>
             </div>
             <comp.sidebarFooter></comp.sidebarFooter>
           </div>
-          <div className="ml-64 dark:bg-zinc-900 grow container">
+          <div className="max-w-full grow flex flex-col lg:pl-56 dark:bg-zinc-900">
             <comp.Header></comp.Header>
-            <div id="content" className="m-5 min-h-screen">
+            <div id="content" className="ml-10 m-5 mr-12">
               {children}
             </div>
-            <comp.footer></comp.footer>
+            <div className="mt-auto">
+              <comp.footer></comp.footer>
+            </div>
           </div>
+        </div>
       </div>
     </body>
   </html>

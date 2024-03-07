@@ -16,7 +16,7 @@ function ListMetadata({ dataList, icon }: { dataList: string[] | null | undefine
 
 export default ({ search }: Lume.Data, helpers: Lume.Helpers) => {
   return (
-    <ul className="pl-0">
+    <ul className="pl-0 mr-12">
       {search.pages('post').map((post) => (
         <li key={post.title} className="list-none pb-5 pl-3 border-b border-solid border-slate-700">
           <a className="mt-7 dark:text-slate-400 text-lg" href={post.url}>{post.title}</a>
