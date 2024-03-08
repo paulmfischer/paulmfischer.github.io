@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from 'npm:@fortawesome/react-fontawesome';
+import { faXmark } from 'npm:@fortawesome/free-solid-svg-icons';
+
 export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => (
   <html className="dark">
     <head>
@@ -5,11 +8,14 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
       <title>{title}</title>
       <link rel="stylesheet" href="/styles.css"></link>
     </head>
-    <body className="dark:text-slate-300 bg-white dark:bg-zinc-800">
+    <body className="text-5xl lg:text-base dark:text-slate-300 bg-white dark:bg-zinc-800">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
         <div className="min-h-screen flex">
-          <div id="sidebar" className="hidden lg:flex flex-col fixed inset-0 h-full max-w-64 dark:bg-zinc-800"> 
+          <div id="sidebar" className="hidden lg:flex flex-col fixed inset-0 h-full max-w-64 dark:bg-zinc-800">
             <div className="ml-12">
+              <button id="close-sidebar" className="mt-5 mr-5 w-9 h-9 lg:w-5 lg:h-5 float-right lg:hidden">
+                <FontAwesomeIcon icon={faXmark} />
+              </button>
               <comp.profile></comp.profile>
               <comp.nav></comp.nav>
             </div>
@@ -26,6 +32,7 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
           </div>
         </div>
       </div>
+      <script src="/scripts/toggle-sidebar.js"></script>
     </body>
   </html>
 );

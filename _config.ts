@@ -15,6 +15,7 @@ import lang_csharp from "npm:highlight.js/lib/languages/csharp";
 const site = lume();
 
 site.copy("assets");
+site.copy("scripts");
 site.data("navLinks", [{
   href: '/',
   text: 'Home',
@@ -36,7 +37,6 @@ site.use(code_highlight({
 site.use(feed());
 site.use(jsx());
 site.use(tailwindcss({
-
 }));
 site.use(pagefind({
   ui: {
