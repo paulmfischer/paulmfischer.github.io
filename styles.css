@@ -1,0 +1,57 @@
+@import "styles/code.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#content .anchor {
+  color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
+#post-content pre {
+  margin-block: 1.5rem;
+}
+
+#post-content p {
+  margin-block: 1rem;
+}
+
+:root.dark {
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-primary: #27272a;
+  --pagefind-ui-text: #fff;
+  --pagefind-ui-background: #27272a;
+  --pagefind-ui-border: #27272a;
+  --pagefind-ui-tag: #cbd5e1;
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-image-border-radius: 8px;
+  --pagefind-ui-image-box-ratio: 3 / 2;
+  --pagefind-ui-font: sans-serif;
+}
+
+#search .pagefind-ui__drawer {
+  max-width: 350px;
+}
+
+@media (min-width: 1024px) {
+  :root.dark {
+    --pagefind-ui-scale: 0.75;
+  }
+
+  #search .pagefind-ui__search-input {
+    padding-right: 0;
+    height: 44px;
+  }
+
+  #search .pagefind-ui__search-clear {
+    height: 40px;
+  }
+}
+
+/* .pagefind-ui__drawer {
+  position: fixed;
+  left: 276px;
+  background-color: #3f3f46;
+  padding-left: 1.25rem;
+} */
