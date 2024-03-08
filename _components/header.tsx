@@ -9,7 +9,7 @@ export default ({ comp, ...data }: Lume.Data, helpers: Lume.Helpers) => {
           <FontAwesomeIcon icon={faBars} />
         </button>
       </div>
-      <div id="search" className="mr-10"></div>
+      <div id="search" className="min-w-96 mr-10 lg:min-w-0"></div>
     </div>
   </>; 
 }
