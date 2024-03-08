@@ -14,6 +14,7 @@ import lang_csharp from "npm:highlight.js/lib/languages/csharp";
 
 const site = lume();
 
+site.ignore('README.md');
 site.copy("assets");
 site.copy("scripts");
 site.data("navLinks", [{
