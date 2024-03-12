@@ -4,22 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
-#content ul {
-  list-style: disc;
-  padding-left: 24px;
+#content {
+  ul {
+    list-style: disc;
+    padding-left: 24px;
+
+    li ul {
+      list-style: circle;
+      padding-left: 24px;
+    }
+  }
 }
 
-#content ul li ul {
-  list-style: circle;
-  padding-left: 25px;
-}
+#post-content {
+  pre {
+    margin-block: 1.5rem;
+  }
 
-#post-content pre {
-  margin-block: 1.5rem;
-}
-
-#post-content p {
-  margin-block: 1rem;
+  p {
+    margin-block: 1rem;
+  }
 }
 
 :root.dark {
@@ -45,19 +49,14 @@
     --pagefind-ui-scale: 0.75;
   }
 
-  #search .pagefind-ui__search-input {
-    padding-right: 0;
-    height: 44px;
-  }
+  #search {
+    .pagefind-ui__search-input {
+      padding-right: 0;
+      height: 44px;
+    }
 
-  #search .pagefind-ui__search-clear {
-    height: 40px;
+    .pagefind-ui__search-clear {
+      height: 40px;
+    }
   }
 }
-
-/* .pagefind-ui__drawer {
-  position: fixed;
-  left: 276px;
-  background-color: #3f3f46;
-  padding-left: 1.25rem;
-} */

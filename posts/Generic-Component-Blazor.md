@@ -1,7 +1,7 @@
 ---
 layout: layouts/posts.tsx
 title: "Generic Components in Blazor"
-date: 2019-06-21
+date: 2019-06-21T05:00:00Z
 tags:
   - post
   - blazor

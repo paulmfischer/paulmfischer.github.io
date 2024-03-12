@@ -13,6 +13,11 @@ I am full-stack [dotnet](https://dotnet.microsoft.com){.dark:text-sky-300} indep
 + I have been doing consulting work for the majority of my professional career.
 + My main language/framework of focus has been c#/dotnet.
   - As well as about any flavor of front-end but mostly [React](https://react.dev/){.dark:text-sky-300} and [Angular](https://angular.io/){.dark:text-sky-300}.
++ Fields that I have worked in
+  - Health Insurance
+  - Logistics
+  - Mergers & Acquisitions
+  - Legal
 
 ## Educational life {.test-lg .my-4}
 
