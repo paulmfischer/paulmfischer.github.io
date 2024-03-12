@@ -18,7 +18,7 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => {
           <li key={link.text} className="my-7 lg:my-4">
             <a href={link.href} className="dark:text-slate-400 flex items-center">
               <div className="w-9 h-9 lg:w-4 lg:h-4 mr-4">{getIcon(link.icon)}</div>
-              <span className="lg:text-lg">{link.text}</span>
+              <span className="lg:text-lg dark:text-sky-300">{link.text}</span>
             </a>
           </li>
         ))}

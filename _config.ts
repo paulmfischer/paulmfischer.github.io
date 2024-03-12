@@ -23,7 +23,7 @@ site.data("navLinks", [{
   icon: 'home',
 }, {
   href: '/about-me',
-  text: 'About',
+  text: 'About Me',
   icon: 'about',
 }]);
 
