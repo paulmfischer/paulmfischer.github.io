@@ -9,6 +9,7 @@ import postcss from "lume/plugins/postcss.ts";
 import date from "lume/plugins/date.ts";
 import nav from "lume/plugins/nav.ts";
 import pagefind from "lume/plugins/pagefind.ts";
+import readInfo from "lume/plugins/reading_info.ts";
 
 import lang_csharp from "npm:highlight.js/lib/languages/csharp";
 
@@ -27,15 +28,18 @@ site.data("navLinks", [{
   icon: 'about',
 }]);
 
+// site.use(favicon());
 site.use(nav());
 site.use(date());
+site.use(readInfo());
+site.use(feed());
+site.use(sitemap());
+
 site.use(code_highlight({
   languages: {
       csharp: lang_csharp,
     },
 }));
-// site.use(favicon());
-site.use(feed());
 site.use(jsx());
 site.use(tailwindcss({
 }));
@@ -44,7 +48,6 @@ site.use(pagefind({
     resetStyles: true,
   }
 }));
-site.use(sitemap());
 site.use(postcss());
 
 export default site;

@@ -1,7 +1,7 @@
 ---
 title: github-actions[bot] denied access to repo
 layout: layouts/posts.tsx
-date: 2022-05-10
+date: 2022-05-10T05:00:00Z
 categories:
   - Toubleshooting
   - Github

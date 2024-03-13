@@ -19,7 +19,8 @@ export default ({ search }: Lume.Data, helpers: Lume.Helpers) => {
     <ul className="pl-0 mr-12">
       {search.pages('post').map((post) => (
         <li key={post.title} className="list-none pb-5 mb-8 lg:mb-5 border-b border-solid border-slate-700">
-          <a className="py-5 dark:text-sky-300 lg:text-lg" href={post.url}>{post.title}</a>
+          <a className="py-5 dark:text-sky-300 lg:text-lg" href={post.url}>{post.title}</a> <span className="hidden lg:inline ml-3 text-sm">{post.readingInfo.minutes} min read</span>
+          <div className="lg:hidden mt-3 text-sm">{post.readingInfo.minutes} min read</div>
           {post.description && <div className="my-6 text-3xl lg:my-2 lg:text-sm italic">{post.description}</div>}
           <div className="flex flex-col gap-3 text-2xl lg:flex-row italic lg:text-sm mt-3">
             <div className="flex items-center mr-5">
