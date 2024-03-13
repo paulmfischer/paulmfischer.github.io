@@ -19,6 +19,9 @@ I am full-stack [dotnet](https://dotnet.microsoft.com){.dark:text-sky-300} indep
   - Mergers & Acquisitions
   - Legal
 
+
+  
+
 ## Educational life {.text-xl .my-4}
 
 + [U.W.Stout](https://www.uwstout.edu/){.dark:text-sky-300} (2007-2010)
