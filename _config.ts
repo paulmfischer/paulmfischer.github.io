@@ -19,6 +19,7 @@ site.ignore('README.md');
 site.copy("assets");
 site.copy("scripts");
 site.copy("Web-PaulFischerResume.pdf");
+site.copyRemainingFiles();
 site.data("navLinks", [{
   href: '/',
   text: 'Home',
