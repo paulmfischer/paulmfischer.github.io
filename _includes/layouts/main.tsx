@@ -13,7 +13,7 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
         <div className="min-h-screen flex">
           <div id="sidebar" className="max-w-lg hidden lg:flex flex-col fixed inset-0 h-full lg:max-w-64 dark:bg-zinc-800 z-50">
             <div className="ml-8 mr-2">
-              <button id="close-sidebar" className="mt-5 mr-7 w-9 h-9 lg:w-5 lg:h-5 float-right lg:hidden">
+              <button id="close-sidebar" className="mt-5 mr-7 w-8 h-8 lg:w-5 lg:h-5 float-right lg:hidden">
                 <FontAwesomeIcon icon={faXmark} />
               </button>
               <comp.profile></comp.profile>
@@ -23,7 +23,7 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
           </div>
           <div id="main" className="max-w-full grow flex flex-col lg:pl-56 dark:bg-zinc-900">
             <comp.Header></comp.Header>
-            <div id="content" className="ml-10 m-5 mr-12">
+            <div id="content" className="ml-10 m-5 mr-12 text-3xl lg:text-lg">
               {children}
             </div>
             <div className="mt-auto">
