@@ -7,11 +7,11 @@ Hello, my name is Paul Fischer.
 
 I am full-stack [dotnet](https://dotnet.microsoft.com){.dark:text-sky-300} independent consultant.
 
-## Professional life {.text-xl .mt-4 .mb-1}
+## Professional life {.lg:text-xl .mt-4 .mb-1}
 [Resume](/Web-PaulFischerResume.pdf) {.dark:text-sky-300 .test-sm .mb-4}
 
 + I have been doing consulting work for the majority of my professional career.
-+ My main language/framework of focus has been c#/[dotnet](https://dotnet.microsoft.com){.dark:text-sky-300}.
++ My main language/framework of focus has been [C#](https://dotnet.microsoft.com/en-us/languages/csharp){.dark:text-sky-300}/[dotnet](https://dotnet.microsoft.com){.dark:text-sky-300}.
   - As well as about any flavor of front-end but mostly [React](https://react.dev/){.dark:text-sky-300} and [Angular](https://angular.io/){.dark:text-sky-300}.
 + Fields that I have worked in
   - Health Insurance
@@ -19,7 +19,7 @@ I am full-stack [dotnet](https://dotnet.microsoft.com){.dark:text-sky-300} indep
   - Mergers & Acquisitions
   - Legal
 
-## Educational life {.text-xl .my-4}
+## Educational life {.lg:text-xl .my-4}
 
 + [U.W.Stout](https://www.uwstout.edu/){.dark:text-sky-300} (2007-2010)
   - Bachelor of Science in Applied Math & Computer Science
@@ -28,15 +28,14 @@ I am full-stack [dotnet](https://dotnet.microsoft.com){.dark:text-sky-300} indep
   - Associates Degree in Computer Science
 
 
-## Personal life {.text-xl .my-4}
+## Personal life {.lg:text-xl .my-4}
 
 + I currently live near [Waupaca, WI.](https://en.wikipedia.org/wiki/Waupaca,_Wisconsin){.dark:text-sky-300}
-+ I dabble in all kinds of hobbies, just to list a few in non particular order:
++ I dabble in all kinds of hobbies, just to list a few in no particular order:
   - Video games
   - Reading
   - Watching Movies/TV shows
   - Growing vegetables in the summer
   - Home Automation
   - Hiking
-  - Computers and technology in general
-  - A few others as well as just learning in general
+  - Tinkering with computers and technology in general (like running a NAS to run [photo gallery](https://www.photoprism.app/) or [Plex](https://www.plex.tv/))
