@@ -1,6 +1,6 @@
 import lume from "lume/mod.ts";
 import code_highlight from "lume/plugins/code_highlight.ts";
-import favicon from "lume/plugins/favicon.ts";
+// import favicon from "lume/plugins/favicon.ts";
 import feed from "lume/plugins/feed.ts";
 import jsx from "lume/plugins/jsx.ts";
 import tailwindcss from "lume/plugins/tailwindcss.ts";
