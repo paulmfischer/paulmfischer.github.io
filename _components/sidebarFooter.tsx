@@ -12,7 +12,7 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => {
       <a href={emailHref} aria-label="github" target="_blank" rel="noopener">
         <FontAwesomeIcon icon={faEnvelope} className="w-12 h-12 lg:w-5 lg:h-5 dark:text-slate-400" />
       </a>
-      <a href={data.mastodon} aria-label="github" target="_blank" rel="noopener" rel="me">
+      <a href={data.mastodon} aria-label="github" target="_blank" rel="me">
         <FontAwesomeIcon icon={faMastodon} className="w-12 h-12 lg:w-5 lg:h-5 dark:text-slate-400" />
       </a>
       <a href={data.linkedin} aria-label="github" target="_blank" rel="noopener">
