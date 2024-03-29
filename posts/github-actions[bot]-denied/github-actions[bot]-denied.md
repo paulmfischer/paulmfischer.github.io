@@ -4,10 +4,8 @@ layout: layouts/posts.tsx
 url: './index.html'
 date: 2022-05-10T05:00:00Z
 categories:
-  - Toubleshooting
-  - Github
+  - Troubleshooting
 tags:
-  - post
   - github
   - github-actions
 ---
