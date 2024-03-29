@@ -2,8 +2,9 @@
 layout: layouts/posts.tsx
 title: "Generic Components in Blazor"
 date: 2019-06-21T05:00:00Z
+categories:
+  - dotnet
 tags:
-  - post
   - blazor
   - generics
 description: Explore building a generic component with Blazor.

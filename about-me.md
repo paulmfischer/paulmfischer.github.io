@@ -5,14 +5,14 @@ title: About
 
 Hello, my name is Paul Fischer.
 
-I am full-stack [dotnet](https://dotnet.microsoft.com){.dark:text-sky-300} independent consultant.
+I am full-stack [dotnet](https://dotnet.microsoft.com){.dark:text-sky-400} independent consultant.
 
 ## Professional life {.lg:text-xl .mt-4 .mb-1}
-[Resume](/Web-PaulFischerResume.pdf) {.dark:text-sky-300 .test-sm .mb-4}
+[Resume](/Web-PaulFischerResume.pdf) {.dark:text-sky-400 .test-sm .mb-4}
 
 + I have been doing consulting work for the majority of my professional career.
-+ My main language/framework of focus has been [C#](https://dotnet.microsoft.com/en-us/languages/csharp){.dark:text-sky-300}/[dotnet](https://dotnet.microsoft.com){.dark:text-sky-300}.
-  - As well as about any flavor of front-end but mostly [React](https://react.dev/){.dark:text-sky-300} and [Angular](https://angular.io/){.dark:text-sky-300}.
++ My main language/framework of focus has been [C#](https://dotnet.microsoft.com/en-us/languages/csharp){.dark:text-sky-400}/[dotnet](https://dotnet.microsoft.com){.dark:text-sky-400}.
+  - As well as about any flavor of front-end but mostly [React](https://react.dev/){.dark:text-sky-400} and [Angular](https://angular.io/){.dark:text-sky-400}.
 + Fields that I have worked in
   - Health Insurance
   - Logistics
@@ -21,16 +21,16 @@ I am full-stack [dotnet](https://dotnet.microsoft.com){.dark:text-sky-300} indep
 
 ## Educational life {.lg:text-xl .my-4}
 
-+ [U.W.Stout](https://www.uwstout.edu/){.dark:text-sky-300} (2007-2010)
++ [U.W.Stout](https://www.uwstout.edu/){.dark:text-sky-400} (2007-2010)
   - Bachelor of Science in Applied Math & Computer Science
   - Bachelor of Fine Arts in Game Design and Development
-+ [Northcentral Technical College](https://www.ntc.edu/){.dark:text-sky-300} (2005-2006)
++ [Northcentral Technical College](https://www.ntc.edu/){.dark:text-sky-400} (2005-2006)
   - Associates Degree in Computer Science
 
 
 ## Personal life {.lg:text-xl .my-4}
 
-+ I currently live near [Waupaca, WI.](https://en.wikipedia.org/wiki/Waupaca,_Wisconsin){.dark:text-sky-300}
++ I currently live near [Waupaca, WI.](https://en.wikipedia.org/wiki/Waupaca,_Wisconsin){.dark:text-sky-400}
 + I dabble in all kinds of hobbies, just to list a few in no particular order:
   - Video games
   - Reading
