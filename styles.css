@@ -28,23 +28,23 @@
   blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    border-left: 5px solid #e0f2fe;
+    border-left: 5px solid #e0f2fe; /* sky-200 */
     font-style: italic;
-    background-color: #27272a;
+    background-color: #27272a; /* zinc-800 */
   }
 
   code:not(.hljs) {
-    color: #0284c7;
+    color: #7dd3fc; /* sky-300 */
   }
 }
 
 :root.dark {
   --pagefind-ui-scale: 1;
-  --pagefind-ui-primary: #27272a;
+  --pagefind-ui-primary: #27272a; /* zinc-800 */
   --pagefind-ui-text: #fff;
-  --pagefind-ui-background: #27272a;
-  --pagefind-ui-border: #27272a;
-  --pagefind-ui-tag: #cbd5e1;
+  --pagefind-ui-background: #27272a; /* zinc-800 */
+  --pagefind-ui-border: #27272a; /* zinc-800 */
+  --pagefind-ui-tag: #cbd5e1; /* slate-300 */
   --pagefind-ui-border-width: 2px;
   --pagefind-ui-border-radius: 8px;
   --pagefind-ui-image-border-radius: 8px;
