@@ -30,9 +30,9 @@ site.data("navLinks", [{
   icon: 'about',
 }]);
 
-site.use(favicon({
-  input: "/assets/me.svg",
-}));
+// site.use(favicon({
+//   input: "/assets/me.svg",
+// }));
 site.use(nav());
 site.use(date());
 site.use(readInfo());
