@@ -9,7 +9,7 @@ export default ({ title, children, github, author, date, tags, comp }: Lume.Data
       <comp.metadata dataList={tags.filter((tag) => tag != 'post')} icon={<FontAwesomeIcon icon={faTag} />}></comp.metadata>
       <div className="flex gap-3 text-2xl lg:text-sm mt-3 mb-6">
         <div>
-          By <a href={github} className="dark:text-sky-400">{author}</a>
+          By <a href={github} className="dark:text-blue-400">{author}</a>
         </div>
         <div>
           Posted <span>{helperDate(date, 'MM/dd/yyyy')}</span>
