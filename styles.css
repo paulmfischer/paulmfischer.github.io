@@ -4,18 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#content {
-  ul {
-    list-style: disc;
-    padding-left: 48px;
-
-    li ul {
-      list-style: circle;
-      padding-left: 48px;
-    }
-  }
-}
-
 #post-content {
   pre, img {
     margin-block: 1.25rem;
@@ -39,7 +27,7 @@
 }
 
 :root.dark {
-  --pagefind-ui-scale: 1;
+  --pagefind-ui-scale: 1.25;
   --pagefind-ui-primary: #27272a; /* zinc-800 */
   --pagefind-ui-text: #fff;
   --pagefind-ui-background: #27272a; /* zinc-800 */
@@ -52,33 +40,9 @@
   --pagefind-ui-font: sans-serif;
 }
 
-#search .pagefind-ui__drawer {
-  max-width: 350px;
-}
 
 @media (min-width: 1024px) {
   :root.dark {
-    --pagefind-ui-scale: 0.75;
-  }
-
-  #search {
-    .pagefind-ui__search-input {
-      padding-right: 0;
-      height: 44px;
-    }
-
-    .pagefind-ui__search-clear {
-      height: 40px;
-    }
-  }
-
-  #content {
-    ul {
-      padding-left: 24px;
-
-      li ul {
-        padding-left: 24px;
-      }
-    }
+    --pagefind-ui-scale: 0.9;
   }
 }
