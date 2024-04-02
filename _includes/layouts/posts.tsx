@@ -16,7 +16,7 @@ export default ({ title, children, github, author, date, tags, comp }: Lume.Data
         </div>
       </div>
       <div className="border-b border-solid border-slate-700"></div>
-      <div id="post-content" data-pagefind-body className=" dark:bg-zinc-900 theme-an-old-hope">
+      <div id="post-content" className=" dark:bg-zinc-900 theme-an-old-hope">
         {children}
       </div>
     </div>

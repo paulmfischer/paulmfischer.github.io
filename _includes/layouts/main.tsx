@@ -23,7 +23,7 @@ export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => 
           </div>
           <div id="main" className="max-w-full grow flex flex-col lg:pl-56 dark:bg-zinc-900">
             <comp.Header></comp.Header>
-            <div id="content" className="ml-10 m-5 mr-12 text-3xl lg:text-lg">
+            <div id="content" className="ml-10 m-5 mr-12 text-3xl lg:text-lg" data-pagefind-body>
               {children}
             </div>
             <div className="mt-auto">
