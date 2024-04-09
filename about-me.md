@@ -12,7 +12,7 @@ I have spent most of my career doing enterprise level web applications.  [In my 
 <br />
 <br />
 ## Professional life {.lg:text-xl .font-semibold .mt-4 .mb-1}
-[Resume](/Web-PaulFischerResume.pdf) {.dark:text-blue-400 .test-sm .mb-4}
+[Resume](/PaulFischerResume.pdf) {.dark:text-blue-400 .test-sm .mb-4}
 
 + I have been doing consulting work for the majority of my professional career.
 {.list-disc .pl-12}
