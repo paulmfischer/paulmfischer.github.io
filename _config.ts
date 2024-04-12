@@ -46,6 +46,9 @@ site.use(code_highlight({
 }));
 site.use(jsx());
 site.use(tailwindcss({
+  options: {
+    darkMode: 'selector',
+  }
 }));
 site.use(pagefind({
   ui: {

@@ -5,7 +5,6 @@ const toggleSidebar = () => {
   contentEl.removeEventListener('click', toggleSidebar);
 };
 
-
 (function() {
   const displayButton = document.querySelector('#display-navigation');
   if (displayButton) {
