@@ -28,7 +28,7 @@ I have spent most of my career doing enterprise level web applications.  [In my 
 
 ## Educational life {.lg:text-xl .font-semibold .my-4}
 
-+ [U.W.Stout](https://www.uwstout.edu/){.text-blue-600 .dark:text-blue-400} (2007-2010)
++ [U.W. Stout](https://www.uwstout.edu/){.text-blue-600 .dark:text-blue-400} (2007-2010)
 {.list-disc .pl-12}
   - Bachelor of Science in Applied Math & Computer Science
   {.list-[circle] .pl-12}
