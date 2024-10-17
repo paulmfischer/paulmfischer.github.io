@@ -17,8 +17,8 @@ export default ({ search, comp }: Lume.Data, helpers: Lume.Helpers) => {
               </div>
               {helpers.date(post.date, 'MM/dd/yyyy')}
             </div>
-            <comp.metadata dataList={post.tags.filter(tag => tag != 'post')} icon={<FontAwesomeIcon icon={faTag} />} />
             <comp.metadata dataList={post.categories} icon={<FontAwesomeIcon icon={faList} />} />
+            <comp.metadata dataList={post.tags.filter(tag => tag != 'post')} icon={<FontAwesomeIcon icon={faTag} />} />
           </div>
         </li>
       ))}
