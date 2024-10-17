@@ -3,7 +3,6 @@ const toggleTheme = () => {
   document.querySelector('#light-mode-icon').classList.toggle('hidden');
   document.querySelector('#dark-mode-icon').classList.toggle('hidden');
   localStorage.theme = isDark ? 'dark' : 'light';
-  console.log('setting local storage theme', localStorage.theme, isDark);
 };
 
 const loadTheme = () => {
