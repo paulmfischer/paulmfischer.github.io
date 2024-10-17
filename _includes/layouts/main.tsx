@@ -2,10 +2,10 @@ import { FontAwesomeIcon } from 'npm:@fortawesome/react-fontawesome';
 import { faXmark } from 'npm:@fortawesome/free-solid-svg-icons';
 
 export default ({ title, children, comp }: Lume.Data, helpers: Lume.Helpers) => (
-  <html className="dark">
+  <html className="dark" lang="en">
     <head>
       <meta charSet="UTF-8"></meta>
-      <title>{title}</title>
+      <title>{title ?? "Fear of the 'undefined'"}</title>
       <link rel="stylesheet" href="/styles.css"></link>
     </head>
     <body className="text-5xl lg:text-base text-slate-900 bg-zinc-200 dark:text-slate-300 dark:bg-zinc-800">
