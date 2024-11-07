@@ -6,10 +6,12 @@
 
 a:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 a > span:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 #post-content {
@@ -24,33 +26,33 @@ a > span:hover {
   blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    border-left: 5px solid #38bdf8; /* sky-400 */
+    border-left: 5px solid theme('colors.sky.400');
     font-style: italic;
-    background-color: #d4d4d8; /* zinc-300 */
+    background-color: theme('colors.zinc.300');
   }
 
   code:not(.hljs) {
-    color: #38bdf8; /* sky-400 */
+    color: theme('colors.sky.400');
   }
 
   a {
-    color: #2563eb; /* blue-600 */
+    color: theme('colors.blue.600');
   }
 }
 
 .dark {
   #post-content {
     blockquote {
-      border-left: 5px solid #e0f2fe; /* sky-200 */
-      background-color: #27272a; /* zinc-800 */
+      border-left: 5px solid theme('colors.sky.200');
+      background-color: theme('colors.zinc.800');
     }
 
     code:not(.hljs) {
-      color: #7dd3fc; /* sky-300 */
+      color: theme('colors.sky.300');
     }
 
     a {
-      color: #60a5fa; /* blue-400 */
+      color: theme('colors.blue.400');
     }
   }
 }
@@ -62,25 +64,25 @@ a > span:hover {
   --pagefind-ui-image-border-radius: 8px;
   --pagefind-ui-image-box-ratio: 3 / 2;
   --pagefind-ui-font: sans-serif;
-  --pagefind-ui-primary: #fff;
-  --pagefind-ui-text: #27272a; /* zinc-800 */
-  --pagefind-ui-background: #fff;
-  --pagefind-ui-border: #27272a; /* zinc-800 */
+  --pagefind-ui-primary: theme('colors.white');
+  --pagefind-ui-text: theme('colors.zinc.800');
+  --pagefind-ui-background: theme('colors.white');
+  --pagefind-ui-border: theme('colors.zinc.800');
 
   .pagefind-ui__result-link {
-    color: #2563eb !important; /* blue-600 */
+    color: theme('colors.blue.600') !important;
   }
 }
 
 :root.dark {
-  --pagefind-ui-primary: #27272a; /* zinc-800 */
-  --pagefind-ui-text: #fff;
-  --pagefind-ui-background: #27272a; /* zinc-800 */
-  --pagefind-ui-border: #27272a; /* zinc-800 */
-  --pagefind-ui-tag: #cbd5e1; /* slate-300 */
+  --pagefind-ui-primary: theme('colors.zinc.800');
+  --pagefind-ui-text: theme('colors.white');
+  --pagefind-ui-background: theme('colors.zinc.800');
+  --pagefind-ui-border: theme('colors.zinc.800');
+  --pagefind-ui-tag: theme('colors.slate.300');
 
   .pagefind-ui__result-link {
-    color: #60a5fa !important; /* blue-400 */
+    color: theme('colors.blue.400') !important;
   }
 }
 
