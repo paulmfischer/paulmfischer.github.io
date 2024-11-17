@@ -51,3 +51,4 @@ I have spent most of my career doing enterprise level web applications.  [In my 
   - Home Automation
   - Hiking
   - Tinkering with computers and technology in general (like running a NAS to run [PhotoPrism](https://www.photoprism.app/){.text-blue-600 .dark:text-blue-400}, [Plex](https://www.plex.tv/){.text-blue-600 .dark:text-blue-400}, and other containerized applications)
+  - 3D Printing
