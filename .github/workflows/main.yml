@@ -1,38 +1,29 @@
-name: Publish on GitHub Pages
+name: Publish on Deno Deploy
 
 on:
   push:
-    branches: [ main ]
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
 
       - name: Setup Deno environment
-        uses: denoland/setup-deno@v1
-        with:
-          deno-version: v2.x
+        uses: denoland/setup-deno@v2
 
       - name: Build site
         run: deno task build
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: '_site'
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+      - name: Deploy to Deno Deploy
+        uses: denoland/deployctl@v1
+        with:
+          project: paulmfischer-blog
+          import-map: "./deno.json"
+          entrypoint: serve.ts
