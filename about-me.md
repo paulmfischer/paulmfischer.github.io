@@ -8,7 +8,7 @@ Hello, my name is Paul Fischer.
 I am a full-stack [dotnet](https://dotnet.microsoft.com){.text-blue-600 .dark:text-blue-400} independent consultant.
 <br />
 <br />
-I have spent most of my career doing enterprise level web applications.  [In my free time](https://github.com/paulmfischer){.text-blue-600 .dark:text-blue-400}, I tend to spend time building (and sometimes finishing?) personal web sites or game development projects. Most of my personal projects are to either learn something new (like [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor){.text-blue-600 .dark:text-blue-400}) or just to code in a different language or framework.
+I have spent most of my career doing enterprise level web applications.  [In my free time](https://github.com/paulmfischer){.text-blue-600 .dark:text-blue-400}, I tend to spend time building (and sometimes finishing?) personal web sites or game development projects. Most of my personal projects are to either learn something new (like [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor){.text-blue-600 .dark:text-blue-400}) or just to code in a different language or framework. I also am just a curious person in general and like to learn new things, whether they are development related or not.
 <br />
 <br />
 ## Professional life {.lg:text-xl .font-semibold .mt-4 .mb-1}
