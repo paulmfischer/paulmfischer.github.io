@@ -2,7 +2,7 @@ Hello! And welcome to my blog website codebase, have a look around and see the s
 
 Things can change here and quickly sometimes, all just depends on what is going on in my life and if I feel like tinkering with another blogging engine to scratch some itch.
 
-That itch currently is to use a static site generator to build out my blog post and host it with [Github Pages](https://pages.github.com/).  I am currently doing that using [Lume](https://lume.land/) which also lets me utilize [Deno](https://deno.com/) to write components for my blog as well as write all my posts in Markdown.
+That itch currently is to use a static site generator to build out my blog post and host it with [Deno Deploy](https://deno.com/deploy).  I am currently doing that using [Lume](https://lume.land/) which also lets me utilize [Deno](https://deno.com/) to write components for my blog as well as write all my posts in Markdown.
 
 #### Previous blog engines used
 Before March 2024: 
